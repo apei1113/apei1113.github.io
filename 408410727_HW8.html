@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>408410727</title>
+    <p id="name"></p>
+
+    <script>
+    	function tree(s){
+            let star;
+            star = [];
+
+            for (let i = 1; i <= s; i++) {
+                let c = (s - i);
+                while (c--) {
+                    star += '&nbsp';
+                    star += '&nbsp';
+                }
+
+                c = (2*i)-1;
+                while(c--){
+                    star += '*';
+                }
+
+                c = (s - i);
+                while (c--) {
+                    star += '&nbsp';
+                    star += '&nbsp';
+                }
+            
+                star += '<br>';
+            }
+            
+            for (let i = 1; i <= s; i++) {
+                let c1 = s;
+                while (--c1) {
+                    star += '&nbsp';
+                    star += '&nbsp';
+                }
+            
+                star += '*';
+
+                star += '<br>';
+            }
+            document.write("tree("+s+")<br>");
+            document.getElementById("name").innerHTML = star;
+        }
+        var s1 = prompt("輸入樹高","");
+        tree(s1);
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>

@@ -1,0 +1,40 @@
+#sitebody{
+  color: rgb(11, 100, 50);
+  background-color: rgb(80, 90, 150);
+  font-size:50px
+}
+#header{
+  background-color: #d68b00;
+  color: rgb(255, 0, 0);
+  style="clear: both;
+  height: 80px;
+  text-align: center; 
+  line-height: 80px"
+}
+#sidebar_left{
+  background-color: #ff30ff;
+  color: rgb(150, 100, 50);
+  width: 120px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+        float: left;
+}
+#sidebar_right{
+  color: rgb(150, 100, 100);
+  background-color: #f2fff2;
+  width: 120px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+        float: right;
+}
+#content{
+  color: rgb(11, 100, 50);
+  background-color: rgb(70, 40, 50);
+  margin-left: 120px;
+        margin-right: 120px;
+        height: 400px;
+        text-align: center;
+        line-height: 400px;
+}
